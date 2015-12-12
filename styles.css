@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'day_romanregular';
+    src: url('font/dayrom__-webfont.eot');
+    src: url('font/dayrom__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/dayrom__-webfont.woff2') format('woff2'),
+         url('font/dayrom__-webfont.woff') format('woff'),
+         url('font/dayrom__-webfont.ttf') format('truetype'),
+         url('font/dayrom__-webfont.svg#day_romanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+  background-color: #fafcfc;
+  width: 100%;
+  height: 100%;
+  font-family: 'day_romanregular';
+  overflow-y: hidden; // hide vertical
+overflow-x: hidden; // hide horizontal
+margin:0;
+padding:0;
+perspective: 1px;
+transform-style: preserve-3d;
+height: 100%;
+}
+input{
+  font-family: 'day_romanregular';
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#logo{
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#text{
+  text-align: center;
+  font-size: 1.7em;
+}
+#countdown{
+  text-align: center;
+  font-size: 2em;
+}
+a {
+     display:inline-block;
+     *display:inline;/* For IE7 */
+     *zoom:1;/*For IE7*/
+     margin-left:auto;
+     margin-right:auto;
+     text-align: center;
+     text-decoration: none;
+}
+.container{
+  padding: 1rem;
+    text-align:center;
+}
+
+.fake_img{
+    display:inline-block;
+    transform: scale(0.6, 0.6);
+-ms-transform: scale(0.6, 0.6);
+-webkit-transform: scale(0.6, 0.6);
+}
+input#mce-FNAME{
+width:190px;
+background-color: #fafcfc;
+font-family: 'day_romanregular';
+font-size: 1.2em;
+height:35px;
+color: black;
+border: 1px solid black;
+}
+input#mce-LNAME{
+width:190px;
+background-color: #fafcfc;
+font-family: 'day_romanregular';
+font-size: 1.2em;
+height:35px;
+color: black;
+border: 1px solid black;
+}
+input.email{
+width:250px;
+background-color: #fafcfc;
+font-family: 'day_romanregular';
+font-size: 1.2em;
+height:35px;
+color: black;
+border: 1px solid black;
+}
+input.button{
+width:120px;
+background-color: #00389b;
+font-family: 'day_romanregular';
+font-size: 1.2em;
+height:35px;
+color: white;
+border: 1px solid #00389b;
+}
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;
+}
+
+:-ms-input-placeholder {
+   color: black;
+}
